@@ -27,21 +27,21 @@ This package is using Lancaster procedure (a generalized Fisher's method) with w
 
 ### self_contained
 
-Description
+Test H0: p-value is uniform vs Ha: p-value is not uniform
 
 #### Parameters
 
-pvals: a list of p-values to be combined
-pmat: a list of lists of p-values randomly obtained from the data
-weights: a list of weights for p-values in pvals
+* pvals: a list of p-values to be combined
+* pmat: a list of lists of p-values randomly obtained from the data
+* weights: a list of weights for p-values in pvals
 
 ### competitive
 
-Description
+Test whether p-value is more significant than randomly selected p-values.
 
 #### Parameters
 
-pvals: a list of p-values to be combined
-pmat: a list of lists of p-values randomly obtained from the data
-weights: a list of weights for p-values in pvals
-n: number of iterations to compute random pvals when pmat is not given
+* pvals: a list of p-values to be combined
+* pmat: a list of lists of p-values randomly obtained from the data
+* weights: a list of weights for p-values in pvals
+* n: number of iterations to compute random pvals when pmat is not given
